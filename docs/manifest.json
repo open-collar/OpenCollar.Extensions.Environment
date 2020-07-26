@@ -1,0 +1,295 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/openc/source/repos/open-collar/OpenCollar.Extensions.Environment/docs-src/ApiDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.ApplicationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.ApplicationService.html",
+          "hash": "m0di8lXTvKyWvHK6X+Gvzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentMetadata.html",
+          "hash": "+xBbZcpNPhZH0m6SkWL+CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentMetadataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentMetadataProvider.html",
+          "hash": "lW1weY5pv8jfDaFy0PqMzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.EnvironmentType.html",
+          "hash": "no7zw5mAYK7/bliJydl2nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.IApplicationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.IApplicationService.html",
+          "hash": "xBKj78dVeRmTkRxMgWg2aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.IEnvironmentMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.IEnvironmentMetadata.html",
+          "hash": "MtHvXanEzIyeSc5F3PclpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.IEnvironmentMetadataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.IEnvironmentMetadataProvider.html",
+          "hash": "7T3eq4Jb8d69vUYsMkbRPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.MismatchedEnvironmentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.MismatchedEnvironmentException.html",
+          "hash": "qeieVxCY6BnTlSJadnz3oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.ServiceCollectionFluentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.ServiceCollectionFluentExtensions.html",
+          "hash": "QRFZkaVR6seFEnqWlS8iQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Environment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Environment.html",
+          "hash": "frQdzc7G+VuiKD/q03ELgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "AyynkcelSyVrXFeoa/8TYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Om3gCrsbrj0U/wAjrWzsxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/opencollar-icon-48x96x32.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/opencollar-icon-48x96x32.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "8cVeJ8i2iHLsfJysD4QrgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "qLR8oaMq+CsSTf9ceS6f5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage/index.html",
+          "hash": "Tm6vBTSih3Bvvxglzag8oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "usage/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "usage/toc.html",
+          "hash": "ek2IDqrFkjt4dcCmmDo7IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 4
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
