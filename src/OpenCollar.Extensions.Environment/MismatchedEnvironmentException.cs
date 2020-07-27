@@ -108,6 +108,8 @@ namespace OpenCollar.Extensions.Environment
         /// </param>
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {
+            info.Validate(nameof(info), ObjectIs.NotNull);
+
             info.AddValue(nameof(ApplicationEnvironment), ApplicationEnvironment);
             info.AddValue(nameof(ResourceEnvironment), ResourceEnvironment);
             base.GetObjectData(info, context);

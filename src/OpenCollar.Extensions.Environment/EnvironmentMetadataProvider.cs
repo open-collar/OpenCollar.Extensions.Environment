@@ -162,7 +162,7 @@ namespace OpenCollar.Extensions.Environment
         ///     implementing application. Environment names are always treated as case insensitive.
         /// </returns>
         /// <exception cref="BadImplementationException">
-        ///     <see cref="GetEnvironmentMetadata" /> returned <see langword="null" />.
+        ///     <see cref="GetEnvironmentMetadata(string)" /> returned <see langword="null" />.
         /// </exception>
         public string? GetResourceEnvironment(string resourceName)
         {

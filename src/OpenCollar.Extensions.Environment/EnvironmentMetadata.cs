@@ -25,9 +25,6 @@ namespace OpenCollar.Extensions.Environment
         ///     The functional environment in which the adapter is hosted. <see langword="null" /> will be accepted if
         ///     the value could not be determined. Environment names are always treated as case insensitive.
         /// </param>
-        /// <param name="">
-        ///     The .
-        /// </param>
         /// <param name="location">
         ///     The location of the resource. <see langword="null" /> will be accepted if the value could not be determined.
         /// </param>
