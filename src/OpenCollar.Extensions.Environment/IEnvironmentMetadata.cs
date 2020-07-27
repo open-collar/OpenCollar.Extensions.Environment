@@ -18,20 +18,6 @@
         public string? Environment { get; }
 
         /// <summary>
-        ///     Gets the name of the resource.
-        /// </summary>
-        /// <value>
-        ///     The name of the resource. <see langword="null" /> will be returned if the value could not be determined.
-        /// </value>
-        /// <remarks>
-        ///     The hostname may well encode all of the other information in this object.
-        /// </remarks>
-        /// <example>
-        ///     E.g. "uk-dev-db-1" or "east-webapp-prod-10".
-        /// </example>
-        public string? ResourceName { get; }
-
-        /// <summary>
         ///     Gets the instance of the resource.
         /// </summary>
         /// <value>
@@ -62,9 +48,27 @@
         /// </example>
         public string? Location { get; }
 
-        /// <summary> Gets the kind of Azure application hosting this service. </summary> <value> The kind of Azure
-        /// application hosting this service. <see langword="null" /> will be returned if the value could not be
-        /// determined. </value> </value>
+        /// <summary>
+        ///     Gets the name of the resource.
+        /// </summary>
+        /// <value>
+        ///     The name of the resource. <see langword="null" /> will be returned if the value could not be determined.
+        /// </value>
+        /// <remarks>
+        ///     The hostname may well encode all of the other information in this object.
+        /// </remarks>
+        /// <example>
+        ///     E.g. "uk-dev-db-1" or "east-webapp-prod-10".
+        /// </example>
+        public string? ResourceName { get; }
+
+        /// <summary>
+        ///     Gets the kind of Azure application hosting this service.
+        /// </summary>
+        /// <value>
+        ///     The kind of Azure application hosting this service. <see langword="null" /> will be returned if the
+        ///     value could not be determined.
+        /// </value>
         public string? ResourceType { get; }
     }
 }

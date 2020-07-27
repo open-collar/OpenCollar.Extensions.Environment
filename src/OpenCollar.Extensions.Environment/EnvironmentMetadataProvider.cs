@@ -79,7 +79,7 @@ namespace OpenCollar.Extensions.Environment
 
             if(ReferenceEquals(applicationEnvironmentType, null))
             {
-                throw new BadImplementationException(string.Format(System.Globalization.CultureInfo.InvariantCulture, OpenCollar.Extensions.Environment.Resources.Exceptions.MethodReturnNull, nameof(GetEnvironmentType));
+                throw new BadImplementationException(string.Format(System.Globalization.CultureInfo.InvariantCulture, OpenCollar.Extensions.Environment.Resources.Exceptions.MethodReturnNull, nameof(GetEnvironmentType)));
             }
 
             _environmentType = applicationEnvironmentType;
@@ -170,7 +170,7 @@ namespace OpenCollar.Extensions.Environment
 
             if(ReferenceEquals(metadata, null))
             {
-                throw new BadImplementationException(string.Format(System.Globalization.CultureInfo.InvariantCulture, OpenCollar.Extensions.Environment.Resources.Exceptions.MethodReturnNull, nameof(GetEnvironmentMetadata));
+                throw new BadImplementationException(string.Format(System.Globalization.CultureInfo.InvariantCulture, OpenCollar.Extensions.Environment.Resources.Exceptions.MethodReturnNull, nameof(GetEnvironmentMetadata)));
             }
 
             return metadata.Environment;
