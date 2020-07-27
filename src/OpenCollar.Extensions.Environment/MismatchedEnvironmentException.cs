@@ -3,6 +3,8 @@ using System.Runtime.Serialization;
 
 using JetBrains.Annotations;
 
+using OpenCollar.Extensions.Validation;
+
 namespace OpenCollar.Extensions.Environment
 {
     /// <summary>
@@ -66,6 +68,8 @@ namespace OpenCollar.Extensions.Environment
         /// </exception>
         private MismatchedEnvironmentException([NotNull] SerializationInfo info, StreamingContext context) : base(info, context)
         {
+            info.Validate(nameof(info), ObjectIs.NotNull);
+
             ApplicationEnvironment = info.GetString(nameof(ApplicationEnvironment));
             ResourceEnvironment = info.GetString(nameof(ResourceEnvironment));
         }

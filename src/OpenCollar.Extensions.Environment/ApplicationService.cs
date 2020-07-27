@@ -75,7 +75,7 @@ namespace OpenCollar.Extensions.Environment
 
         /// <summary>
         ///     Validates the pairing of the resource named and the current environment, throwing a
-        ///     <see cref="MismtachedEnvironmentException" /> exception if they are deemed incompatible.
+        ///     <see cref="MismatchedEnvironmentException" /> exception if they are deemed incompatible.
         /// </summary>
         /// <param name="resourceName">
         ///     The name of the resource to validate.
@@ -84,7 +84,7 @@ namespace OpenCollar.Extensions.Environment
         ///     If set to <see langword="true" /> unknown environments (where the environment name is identified as
         ///     <see langword="null" />) are permitted to match with anything.
         /// </param>
-        /// <exception cref="MismtachedEnvironmentException">
+        /// <exception cref="MismatchedEnvironmentException">
         ///     The given resource is not compatible with application environment.
         /// </exception>
         public void ValidateResourcePairing(string resourceName, bool permitFuzzyResults)

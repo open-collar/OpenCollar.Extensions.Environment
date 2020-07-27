@@ -56,7 +56,7 @@ namespace OpenCollar.Extensions.Environment
             {
                 if(ReferenceEquals(environmentType, null))
                 {
-                    throw new ArgumentException(string.Format(Resources.Exceptions.NullValueAtIndex, System.Globalization.CultureInfo.CurrentCulture, nameof(environmentTypes), index), nameof(environmentTypes));
+                    throw new ArgumentException(string.Format(System.Globalization.CultureInfo.InvariantCulture, Resources.Exceptions.NullValueAtIndex, nameof(environmentTypes), index), nameof(environmentTypes));
                 }
                 _environmentsByName.Add(environmentType.Name, environmentType);
                 foreach(var acronym in environmentType.Acronyms)
@@ -70,7 +70,7 @@ namespace OpenCollar.Extensions.Environment
 
             if(ReferenceEquals(metadata, null))
             {
-                throw new BadImplementationException(string.Format(Resources.Exceptions.MethodReturnNull, System.Globalization.CultureInfo.CurrentCulture, nameof(GetEnvironmentMetadata)));
+                throw new BadImplementationException(string.Format(System.Globalization.CultureInfo.InvariantCulture, Resources.Exceptions.MethodReturnNull, nameof(GetEnvironmentMetadata)));
             }
 
             _metadata = metadata;
