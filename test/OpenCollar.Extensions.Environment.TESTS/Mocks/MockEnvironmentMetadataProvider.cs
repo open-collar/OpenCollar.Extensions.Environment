@@ -15,13 +15,16 @@
         {
         }
 
-        public static MockEnvironmentMetadata NextEnvironmentMetadata { get; set; }
+        public static MockEnvironmentMetadata? NextEnvironmentMetadata { get; set; }
 
         public override IEnvironmentMetadata GetEnvironmentMetadata(string resourceName)
         {
             var x = NextEnvironmentMetadata;
             NextEnvironmentMetadata = null;
-            x.SetResourceName(resourceName);
+            if(!ReferenceEquals(x, null))
+            {
+                x.SetResourceName(resourceName);
+            }
             return x;
         }
     }
