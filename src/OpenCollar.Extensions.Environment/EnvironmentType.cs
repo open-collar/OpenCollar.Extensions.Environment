@@ -210,17 +210,17 @@ namespace OpenCollar.Extensions.Environment
         /// </exception>
         public int CompareTo(object obj)
         {
-            if (ReferenceEquals(null, obj))
+            if(ReferenceEquals(null, obj))
             {
                 return 1;
             }
 
-            if (ReferenceEquals(this, obj))
+            if(ReferenceEquals(this, obj))
             {
                 return 0;
             }
 
-            return obj is EnvironmentType other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(EnvironmentType)}");
+            return obj is EnvironmentType other ? CompareTo(other) : throw new ArgumentException(string.Format(System.Globalization.CultureInfo.InvariantCulture, OpenCollar.Extensions.Environment.Resources.Exceptions.ObjectMustBeOfType, nameof(EnvironmentType)));
         }
 
         /// <summary>
@@ -254,12 +254,12 @@ namespace OpenCollar.Extensions.Environment
         /// </returns>
         public int CompareTo(EnvironmentType other)
         {
-            if (ReferenceEquals(this, other))
+            if(ReferenceEquals(this, other))
             {
                 return 0;
             }
 
-            if (ReferenceEquals(null, other))
+            if(ReferenceEquals(null, other))
             {
                 return 1;
             }
@@ -279,12 +279,12 @@ namespace OpenCollar.Extensions.Environment
         /// </returns>
         public bool Equals(EnvironmentType other)
         {
-            if (ReferenceEquals(null, other))
+            if(ReferenceEquals(null, other))
             {
                 return false;
             }
 
-            if (ReferenceEquals(this, other))
+            if(ReferenceEquals(this, other))
             {
                 return true;
             }

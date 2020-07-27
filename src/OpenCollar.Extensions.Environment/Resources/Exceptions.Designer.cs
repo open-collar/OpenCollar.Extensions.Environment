@@ -86,5 +86,14 @@ namespace OpenCollar.Extensions.Environment.Resources {
                 return ResourceManager.GetString("NullValueAtIndex", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Object must be of type {0}..
+        /// </summary>
+        internal static string ObjectMustBeOfType {
+            get {
+                return ResourceManager.GetString("ObjectMustBeOfType", resourceCulture);
+            }
+        }
     }
 }

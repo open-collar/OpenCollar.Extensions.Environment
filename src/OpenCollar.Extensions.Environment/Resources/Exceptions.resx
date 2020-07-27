@@ -132,4 +132,8 @@
     <comment>{0} - The name of the argument with a null value.
 {1} - The index of the null value in the argument.</comment>
   </data>
+  <data name="ObjectMustBeOfType" xml:space="preserve">
+    <value>Object must be of type {0}.</value>
+    <comment>{0} - The type the object must be of.</comment>
+  </data>
 </root>
