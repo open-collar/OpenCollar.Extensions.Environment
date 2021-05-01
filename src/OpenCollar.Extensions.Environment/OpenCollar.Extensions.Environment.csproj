@@ -16,7 +16,7 @@
         <Description>
             Common access to environmental metadata.
         </Description>
-        <Copyright>Copyright © 2020 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
+        <Copyright>Copyright © 2021-2021 Jonathan Evans (jevans@open-collar.org.uk).</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://open-collar.github.io/OpenCollar.Extensions.Environment/index.html</PackageProjectUrl>
         <PackageIcon>opencollar-icon-320x320x32.png</PackageIcon>
@@ -35,7 +35,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-        <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+        <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
         <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
