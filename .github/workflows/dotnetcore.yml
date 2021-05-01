@@ -79,4 +79,5 @@ jobs:
       run: |
         echo "Pubishing version: $VERSION$SUFFIX"
         dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_DEPLOY_KEY}} --source https://api.nuget.org/v3/index.json
+        dotnet nuget push **/*.snupkg --api-key ${{secrets.NUGET_DEPLOY_KEY}} --source https://api.nuget.org/v3/index.json
 
