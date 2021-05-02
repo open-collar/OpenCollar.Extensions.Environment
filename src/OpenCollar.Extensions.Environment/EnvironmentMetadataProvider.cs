@@ -66,8 +66,16 @@ namespace OpenCollar.Extensions.Environment
         /// <exception cref="ArgumentException">
         ///     <paramref name="environmentTypes" /> contains a <see langword="null" /> value.
         /// </exception>
+        /// <exception cref="System.ArgumentNullException">
+        ///     <paramref name="applicationResourceName" /> is <see langword="null" />.
+        /// </exception>
+        /// <exception cref="System.ArgumentException">
+        ///     <paramref name="applicationResourceName" /> is zero-length of contains only whote-space characters.
+        /// </exception>
         protected EnvironmentMetadataProvider(string applicationResourceName, params EnvironmentType[] environmentTypes)
         {
+            applicationResourceName.Validate(applicationResourceName, StringIs.NotNullEmptyOrWhiteSpace);
+
             _environmentsByName = new Dictionary<string, EnvironmentType>(StringComparer.OrdinalIgnoreCase);
             _environmentsByAcronym = new Dictionary<string, EnvironmentType>(StringComparer.OrdinalIgnoreCase);
             var index = 0;
